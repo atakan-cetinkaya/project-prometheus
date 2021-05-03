@@ -1,0 +1,41 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 AndaleMono;}
+{\colortbl;\red255\green255\blue255;\red28\green213\blue4;\red255\green255\blue255;\red28\green212\blue4;
+\red28\green213\blue4;\red179\green36\blue25;}
+{\*\expandedcolortbl;;\cssrgb\c0\c84767\c0;\cssrgb\c100000\c100000\c100000\c0;\cssrgb\c0\c84302\c0;
+\cssrgb\c0\c84767\c0;\cssrgb\c76350\c21588\c12318;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww13320\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf2 \cb3 \CocoaLigature0 \'97 \'97 \'97 \'97 \'97 \'97 \'97 \'97 \'97 \'97 \
+1. Execute this command on the command prompt \'93\cf4 bash-3.2$\'94 on your local computer!\
+\
+	\cf2 ssh -L PORT:localhost:PORT user_name@IP of the masternode\
+\
+As example for the masternode on the cluster of linux academy:\
+\
+	ssh -L 8088:localhost:8080 cloud_user@\cf5 3.9.18.254\cf2 \
+\
+\'97 \'97 \'97 \'97 \'97 \'97 \'97 \'97 \'97 \'97 \
+\
+2. Execute this command on the command prompt of the kubernetes cluster on the master node!\
+\
+	kubectl port-forward prometheus-deployment-87cc8fb88-4m2k2 \cf6 8080\cf2 :9090 -n monitoring\
+\
+\'97 \'97 \'97 \'97 \'97 \'97 \'97 \'97 \'97 \'97 \
+\
+- netstat -an | grep 8080\
+\
+\
+- wget localhost:8080\
+\
+\
+- http://localhost:8080/ (enter the link)\
+\
+\
+- curl localhost:8080\
+\
+\
+- kill -9 1885\
+\
+\'97 \'97 \'97 \'97 \'97 \'97 \'97 \'97 \'97 \'97 }
